@@ -7,6 +7,7 @@ import {removeTodo} from '../Features/todo/todoSlice'
 function Todos() {
    const todos =  useSelector((state) => state.todos)
     console.log(todos)
+    console.log(todos.text)
 const dispatch = useDispatch()
 
   return (
